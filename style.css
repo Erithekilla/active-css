@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: lato;
+}  
+
+
+
+.info-header li a{
+    display: block;
+    color:#000;
+    padding: 8px 16px;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+}
+
+.info-header li{
+    text-align: center;
+    
+}
+
+.info-header li a:hover{
+    background-color: #555;
+    color:white;
+}
+
+.info-header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #c7c7c7;
+    overflow: auto;
+    height: 150px;
+    position: fixed;
+}
+
+.active{
+    background-color: rgb(16, 155, 16);
+    color:white;
+}
